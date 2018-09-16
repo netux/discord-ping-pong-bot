@@ -54,6 +54,10 @@ func handleMessageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		return
 	}
 
+	if m.Author.Bot {
+		return
+	}
+
 	if len(Cfg.ChannelWhitelist) > 0 {
 		inWhitelist := func() bool {
 			for _, chID := range Cfg.ChannelWhitelist {

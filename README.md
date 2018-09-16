@@ -26,3 +26,5 @@ To stop a match, one of the participants has to send "🏓 exit".
 
 ## TODO
 - [ ] A better mechanic to determine whenever a hit was successful
+- [ ] A timer
+- [ ] Win state (11 points or diference of 2 points)
