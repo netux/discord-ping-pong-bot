@@ -19,4 +19,4 @@ Two users can share a friendly game of ping-pong/table tennis, by sending messag
 10. Run ping-pong.exe to start the BOT
 
 ## TODO
-- [x] A better mechanic to determine whenever a hit was successful
+- [ ] A better mechanic to determine whenever a hit was successful
